@@ -1,0 +1,55 @@
+---Symbols
+INSERT INTO lexeme(lexeme,token) VALUES('#','header');
+INSERT INTO lexeme(lexeme,token) VALUES('!','not');
+INSERT INTO lexeme(lexeme,token) VALUES(';','semicolon');
+INSERT INTO lexeme(lexeme,token) VALUES(':','colon');
+INSERT INTO lexeme(lexeme,token) VALUES('?','question mark');
+INSERT INTO lexeme(lexeme,token) VALUES('"','quotation mark');
+INSERT INTO lexeme(lexeme,token) VALUES('''','apostrophe');
+INSERT INTO lexeme(lexeme,token) VALUES(',','comma');
+INSERT INTO lexeme(lexeme,token) VALUES('.','period');
+--INSERT INTO lexeme(lexeme,token) VALUES('/','forward slash');
+INSERT INTO lexeme(lexeme,token) VALUES('\','backward slash');
+INSERT INTO lexeme(lexeme,token) VALUES('|','pipe');
+INSERT INTO lexeme(lexeme,token) VALUES('||','double pipe');
+INSERT INTO lexeme(lexeme,token) VALUES('&','ampersand');
+INSERT INTO lexeme(lexeme,token) VALUES('&&','double ampersand');
+INSERT INTO lexeme(lexeme,token) VALUES('<','left angle');
+INSERT INTO lexeme(lexeme,token) VALUES('<<','double left angle');
+INSERT INTO lexeme(lexeme,token) VALUES('>','right angle');
+INSERT INTO lexeme(lexeme,token) VALUES('>>','double right angle');
+INSERT INTO lexeme(lexeme,token) VALUES('(','left parenthesis');
+INSERT INTO lexeme(lexeme,token) VALUES(')','right parenthesis');
+INSERT INTO lexeme(lexeme,token) VALUES('{','left curly brace');
+INSERT INTO lexeme(lexeme,token) VALUES('}','right curly brace');
+INSERT INTO lexeme(lexeme,token) VALUES('[','left square bracket');
+INSERT INTO lexeme(lexeme,token) VALUES(']','right square bracet');
+
+---Oprerators
+--Arithmetic Operator
+INSERT INTO lexeme(lexeme,token) VALUES('+','addition');
+INSERT INTO lexeme(lexeme,token) VALUES('-','subtraction');
+INSERT INTO lexeme(lexeme,token) VALUES('*','multiplication');
+INSERT INTO lexeme(lexeme,token) VALUES('/','division');
+INSERT INTO lexeme(lexeme,token) VALUES('%','modulo');
+INSERT INTO lexeme(lexeme,token) VALUES('=','equal');
+
+---Keywords
+INSERT INTO lexeme(lexeme,token) VALUES('include','Keyword');
+INSERT INTO lexeme(lexeme,token) VALUES('iostream','Keyword');
+INSERT INTO lexeme(lexeme,token) VALUES('using','Keyword');
+INSERT INTO lexeme(lexeme,token) VALUES('namespace','Keyword');
+INSERT INTO lexeme(lexeme,token) VALUES('std','Keyword');
+INSERT INTO lexeme(lexeme,token) VALUES('cout','Keyword');
+INSERT INTO lexeme(lexeme,token) VALUES('cin','Keyword');
+INSERT INTO lexeme(lexeme,token) VALUES('return','Keyword');
+
+---Data Types
+INSERT INTO lexeme(lexeme,token) VALUES('int','Data Type');
+INSERT INTO lexeme(lexeme,token) VALUES('string','Data Type');
+INSERT INTO lexeme(lexeme,token) VALUES('char','Data Type');
+INSERT INTO lexeme(lexeme,token) VALUES('double','Data Type');
+INSERT INTO lexeme(lexeme,token) VALUES('float','Data Type');
+INSERT INTO lexeme(lexeme,token) VALUES('bool','Data Type');
+INSERT INTO lexeme(lexeme,token) VALUES('void','Data Type');
+
